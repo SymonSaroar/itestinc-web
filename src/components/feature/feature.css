@@ -1,0 +1,25 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    text-align: center;
+    padding: 3rem 0rem;
+    height: 30vh;
+    background-color: rgb(0,0,0,0.05);
+    color: var(--color-secondary);
+    line-height: 1.5;
+}
+.feature_title, .feature_subtitle {
+    width: 90vw;
+    max-width: 780px;
+}
+.feature_title {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.feature_subtitle {
+    font-weight: 700;
+}
