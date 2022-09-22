@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/itestinc-web/static/css/main.0b477cdd.css",
+    "main.js": "/itestinc-web/static/js/main.9bb1559d.js",
+    "static/media/slide3.jpg": "/itestinc-web/static/media/slide3.cfb50ff17c9c59fe0e76.jpg",
+    "static/media/slide2.jpg": "/itestinc-web/static/media/slide2.1c9722467fed58dafbbd.jpg",
+    "static/media/slide1.jpg": "/itestinc-web/static/media/slide1.e7979d0809b10ccfad99.jpg",
+    "static/media/logo-1.png": "/itestinc-web/static/media/logo-1.7b3cce5332e68a076cd1.png",
+    "index.html": "/itestinc-web/index.html",
+    "main.0b477cdd.css.map": "/itestinc-web/static/css/main.0b477cdd.css.map",
+    "main.9bb1559d.js.map": "/itestinc-web/static/js/main.9bb1559d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b477cdd.css",
+    "static/js/main.9bb1559d.js"
+  ]
+}
