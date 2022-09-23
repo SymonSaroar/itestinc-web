@@ -10,11 +10,10 @@ const Services = () => {
   const change = (index) => {
     let newStatus = [...showStatus]
     newStatus[index] = !newStatus[index]
-    console.log(newStatus[index])
     changeStatus(newStatus)
   }
   const IconList = [<HiWifi />, <HiChip />, <HiCog />]
-  const [logoRef, inView] = useInView()
+  const [logoRef, inView] = useInView({threshold: 1})
 
   return (
     <div className='services'>

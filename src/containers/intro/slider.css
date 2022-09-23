@@ -68,7 +68,9 @@
     font-size: 4rem;
     text-transform: capitalize;
     background: linear-gradient(#ddd,rgb(27,183,217), #ddd);
+    background-clip: text;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
