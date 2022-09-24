@@ -1,11 +1,11 @@
 import React from 'react'
-import './intro.css'
+import './intro.scss'
 import { Slideitem } from './Slideitem'
-import Slider from './Slider'
+import { Slider } from '../../components'
 const Intro = () => {
   return (
     <div className='intro'>
-      <Slider slides={Slideitem} />
+      <Slider slides={Slideitem} classNames='intro-anim'/>
     </div>
   )
 }
