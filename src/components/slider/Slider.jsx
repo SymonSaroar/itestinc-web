@@ -96,6 +96,7 @@ const Slider = (props) => {
               return(
                 <div className={`slide_indicator-number cur-${curSlide === i}`} key={i}
                   onClick={() => {
+                    (i < curSlide)? setSlideDir('left') : setSlideDir('right')
                     changeSlide(i)
                   }}
                 >
