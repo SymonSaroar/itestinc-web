@@ -98,6 +98,12 @@
     clip-path: inset(0 0 100% 0);
     transition: all 200ms ease-in-out;
 }
+.navbar-links_container_dropdown.scroll-true {
+    top: 80px;
+}
+.navbar-links_container_dropdown.scroll-false {
+    top: 100px;
+}
 
 .navbar-links_container_dropdown a {
     width: 100%;

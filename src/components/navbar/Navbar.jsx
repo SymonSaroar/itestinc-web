@@ -34,7 +34,7 @@ const Navbar = () => {
                     }
                     {
                       menu.submenu &&
-                      <div className='navbar-links_container_dropdown'>
+                      <div className={`navbar-links_container_dropdown scroll-${scrollStatus}`}>
                         {
                           menu.submenu.map((submenu, index) => {
                             return (
