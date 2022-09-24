@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/itestinc-web/static/css/main.0b477cdd.css",
-    "main.js": "/itestinc-web/static/js/main.9bb1559d.js",
+    "main.css": "/itestinc-web/static/css/main.9f2c15a0.css",
+    "main.js": "/itestinc-web/static/js/main.9973218a.js",
     "static/media/slide3.jpg": "/itestinc-web/static/media/slide3.cfb50ff17c9c59fe0e76.jpg",
+    "static/media/ISO17025-Cert-1.png": "/itestinc-web/static/media/ISO17025-Cert-1.3cc48eef19ec3ed2880a.png",
     "static/media/slide2.jpg": "/itestinc-web/static/media/slide2.1c9722467fed58dafbbd.jpg",
     "static/media/slide1.jpg": "/itestinc-web/static/media/slide1.e7979d0809b10ccfad99.jpg",
+    "static/media/DLA_Cert.jpg": "/itestinc-web/static/media/DLA_Cert.84e31435e4b699252d32.jpg",
+    "static/media/ISO17025-Cert-2.png": "/itestinc-web/static/media/ISO17025-Cert-2.1dc79db9d9ebe6af818d.png",
     "static/media/logo-1.png": "/itestinc-web/static/media/logo-1.7b3cce5332e68a076cd1.png",
     "index.html": "/itestinc-web/index.html",
-    "main.0b477cdd.css.map": "/itestinc-web/static/css/main.0b477cdd.css.map",
-    "main.9bb1559d.js.map": "/itestinc-web/static/js/main.9bb1559d.js.map"
+    "main.9f2c15a0.css.map": "/itestinc-web/static/css/main.9f2c15a0.css.map",
+    "main.9973218a.js.map": "/itestinc-web/static/js/main.9973218a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b477cdd.css",
-    "static/js/main.9bb1559d.js"
+    "static/css/main.9f2c15a0.css",
+    "static/js/main.9973218a.js"
   ]
 }
