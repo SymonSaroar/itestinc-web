@@ -123,12 +123,18 @@
 		gap: 1rem;
 
 		height: auto;
-		width: 60rem;
+		width: 70vw;
+		max-width: 60rem;
 		background-color: rgba(0,0,0,0.6);
 		text-align: center;
 		padding: 2rem;
 
 		border-radius: 2rem;
+
+		@media screen and (max-width: 900px) {
+			padding: 1rem;
+			border-radius: 1rem;
+		}
 	}
 	.slide_caption-intro-anim-right-enter {
 		opacity: 0;
@@ -170,7 +176,7 @@
 	}
 
 	.slide_caption-title {
-		font-size: 3.5rem;
+		font-size: 3.3rem;
 		text-transform: capitalize;
 		background: linear-gradient(#ddd,rgb(27,183,217), #ddd);
 		background-clip: text;
@@ -178,12 +184,26 @@
 		-moz-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		font-weight: bold;
+
+		@media screen and (max-width: 1200px) {
+			font-size: 2.5rem;
+		}
+		@media screen and (max-width: 900px) {
+			font-size: 2rem;
+		}
+		@media screen and (max-width: 600px) {
+			font-size: 1.5rem;
+		}
 	}
 	.slide_caption-subtitle {
 		font-size: 1.5rem;
 		color: whitesmoke;
 		text-align: center;
 		text-transform: capitalize;
+		
+		@media screen and (max-width: 1200px) {
+			font-size: 1rem;
+		}
 	}
 
 	.slide_left-container, .slide_right-container {

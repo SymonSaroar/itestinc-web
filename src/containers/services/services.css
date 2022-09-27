@@ -16,7 +16,19 @@
     width: 90vw;
     max-width: 1080px;
 }
-
+@media screen and (max-width: 900px) {
+    .services_container {
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .services_container {
+        width: 90vw;
+    }
+}
 .service {
     display: flex;
     flex-direction: column;
@@ -31,6 +43,11 @@
     color: #068AC2;
 
     transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 900px) {
+    .service_logo{
+        transition-delay: 0s !important;
+    }
 }
 .service_logo-hide {
     opacity: 0;
@@ -84,20 +101,4 @@
 .service_info-hidden-anim-exit-active {
     max-height: 0;
     transition: all 500ms linear;
-}
-
-.delay-0 {
-    transition-delay: 0;
-}
-.delay-1 {
-    transition-delay: 100ms;
-}
-.delay-2 {
-    transition-delay: 200ms;
-}
-.delay-3 {
-    transition-delay: 300ms;
-}
-.delay-4 {
-    transition-delay: 400ms;
 }

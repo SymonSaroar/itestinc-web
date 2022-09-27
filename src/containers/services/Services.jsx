@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useInView } from 'react-intersection-observer'
+import { InView } from 'react-intersection-observer'
 import { CSSTransition } from 'react-transition-group'
 import './services.css'
 import { ServiceList } from './ServiceList'
@@ -13,7 +13,6 @@ const Services = () => {
     changeStatus(newStatus)
   }
   const IconList = [<HiWifi />, <HiChip />, <HiCog />]
-  const [logoRef, inView] = useInView({threshold: 1})
 
   return (
     <div className='services'>
@@ -22,13 +21,18 @@ const Services = () => {
           ServiceList.map((service, index) => {
             return (
               <div className='service' key={index}>
-                <div className={`${'service_logo'} 
-                ${inView? 'service_logo-show' : 'service_logo-hide'} 
-                ${'delay-'}${index}`} 
-                ref={logoRef}
-                >
-                  {IconList[index]}
-                </div>
+                <InView threshold={1}>
+                  {
+                    ({ inView, ref, entry }) => (
+                      <div className={`${'service_logo'} ${inView? 'service_logo-show' : 'service_logo-hide'} ${'delay-'}${index}`}
+                        ref={ref}
+                      >
+                        {IconList[index]}
+                      </div>
+                    )
+                  }
+                </InView>
+
                 <div className="service_info">
                   <div className='service_info-title'>
                     {service.title}

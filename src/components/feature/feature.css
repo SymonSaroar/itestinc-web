@@ -7,13 +7,13 @@
 
     text-align: center;
     padding: 3rem 0rem;
-    height: 30vh;
+    height: auto;
     background-color: rgb(0,0,0,0.05);
     color: var(--color-secondary);
     line-height: 1.5;
 }
 .feature_title, .feature_subtitle {
-    width: 90vw;
+    width: 70vw;
     max-width: 780px;
 }
 .feature_title {
@@ -22,4 +22,13 @@
 }
 .feature_subtitle {
     font-weight: 700;
+}
+
+@media screen and (max-width: 550px) {
+    .feature_title {
+        font-size: 1.5rem;
+    }
+    .feature_subtitle {
+        font-weight: 500;
+    }
 }

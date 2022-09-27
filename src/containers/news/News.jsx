@@ -1,5 +1,5 @@
 import React from 'react'
-import './news.css'
+import './news.scss'
 import Ceritification from './Ceritification'
 import PressReleases from './PressReleases'
 import RecentEvents from './RecentEvents'

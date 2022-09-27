@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { RiArrowDownSLine } from 'react-icons/ri'
+import { RiArrowDownSLine, RiMenuLine } from 'react-icons/ri'
 import logo from '../../assets/logo-1.png'
 import './navbar.css'
 import { menuItems } from './Menuitems'
@@ -7,6 +7,7 @@ import { menuItems } from './Menuitems'
 
 const Navbar = () => {
   const [scrollStatus, setScrollStatus] = useState(false)
+  const [menubarVisible, setMenubarVisible] = useState(false)
   window.addEventListener("scroll", () => {
     let scroll = window.scrollY
     scroll > 0? setScrollStatus(true) :
@@ -19,7 +20,10 @@ const Navbar = () => {
         <div className="navbar-links_logo">
           <img src={logo} alt="itest-inc" />
         </div>
-        <div className="navbar-links_container">
+        <div className='navbar-links_menubar' onClick={() => setMenubarVisible(!menubarVisible)}>
+          <RiMenuLine />
+        </div>
+        <div className={`navbar-links_container scroll-${scrollStatus} menu-${menubarVisible}`}>
           <ul>
             {
               menuItems.map((menu, index) => {

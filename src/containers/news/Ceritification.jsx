@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
-import { CSSTransition } from 'react-transition-group'
+import React from 'react'
 import './certification.scss'
 import { certificates } from './Certificates'
 import { Slider } from '../../components'
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 const Ceritification = (props) => {
   return (
     <div className='certification'>
-      <Slider slides={certificates} />
+      <Slider slides={certificates} classNames='cert-anim'/>
     </div>
   )
 }
