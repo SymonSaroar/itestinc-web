@@ -1,0 +1,41 @@
+.brand {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-content: center;
+  place-items: center;
+  align-items: flex-start;
+  gap: 5rem;
+
+  padding: 3rem 0rem;
+  background: rgba(0, 0, 0, 0.05);
+  .brand-address {
+    justify-self: flex-end;
+    
+    text-align: end;
+    .brand-address_title {
+      font-size: larger;
+    }
+    .brand-address_mail {
+      color: var(--color-secondary);
+    }
+  }
+  .brand-details {
+    justify-self: flex-start;
+    color: var(--color-secondary);
+  }
+
+  @media screen and (max-width: 550px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    place-items: center;
+    place-content: center;
+    .brand-address {
+      text-align: center;
+      justify-self: auto;
+    }
+    .brand-details {
+      justify-self: auto;
+      text-align: center;
+    }
+  }
+}

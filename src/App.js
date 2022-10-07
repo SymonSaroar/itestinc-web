@@ -19,8 +19,9 @@ const App = () => {
         </Features>
         <News />
         <Brand />
-        <Cta />
-        <Footer />
+        <Footer>
+          <Cta />
+        </Footer>
     </div>
   )
 }
