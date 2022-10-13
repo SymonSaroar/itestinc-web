@@ -1,0 +1,27 @@
+.press-releases {
+  .press-releases-page_info-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .press-releases-page_info-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    div {
+      grid-column: 1 / 2;
+    }
+    a {
+      font-size: smaller;
+      color: var(--color-500);
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        text-decoration: underline;
+        color: var(--color-900);
+      }
+    }
+    section {
+      grid-column: 2 / -1;
+    }
+  }
+}

@@ -4,13 +4,22 @@
   --font-family: Bangla992, "Open Sans", Arial, sans-serif;
 
   --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-text-hover:  linear-gradient(0deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-text-hover: linear-gradient(0deg, #AE67FA 1.84%, #F49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  
+
   --color-bg: #fff;
   --color-header: #222;
   --color-header-text: #fff;
   --color-primary: #1BB7D9;
+  --color-100: #caf0f8;
+  --color-200: #ade8f4;
+  --color-300: #90e0ef;
+  --color-400: #48cae4;
+  --color-500: #00b4d8;
+  --color-600: #0096c7;
+  --color-700: #0077b6;
+  --color-800: #023e8a;
+  --color-900: #03045e;
   --color-secondary: #4C4C4C;
   --color-text: #666;
   --color-subtext: #FF8A71;

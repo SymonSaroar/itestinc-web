@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import { MdCall, MdMail } from 'react-icons/md'
+
 const Header = () => {
   return (
     <div className='header'>

@@ -1,0 +1,14 @@
+.recent-events-page {
+  .recent-events-page_info-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    > section {
+      p {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}
