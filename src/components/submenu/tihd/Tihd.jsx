@@ -25,11 +25,13 @@ const Tihd = (props) => {
           <ul>
             {menuItems[props.menu].submenu.map((submenu, index) => {
               return (
-                thisMenu.title !== submenu.title && (
-                  <li key={index}>
-                    <Link to={submenu.url}>{submenu.title}</Link>
-                  </li>
-                )
+                // thisMenu.title !== submenu.title &&
+                <li
+                  key={index}
+                  class={thisMenu.title === submenu.title ? "active" : ""}
+                >
+                  <Link to={submenu.url}>{submenu.title}</Link>
+                </li>
               );
             })}
           </ul>
