@@ -21,7 +21,7 @@ const Navbar = () => {
         }
       >
         <div className="navbar-links_logo">
-          <img src={logo} alt="itest-inc" />
+          <img src={logo} alt="itest-inc" loading="lazy" />
         </div>
         <div
           className="navbar-links_menubar"

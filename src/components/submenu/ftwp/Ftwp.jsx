@@ -37,7 +37,9 @@ const Ftwp = (props) => {
         </div>
         <div className="ftwp_info-details info-details">
           {thisMenu.details}
-          {thisMenu.image && <img src={thisMenu.image} alt={thisMenu.title} />}
+          {thisMenu.image && (
+            <img src={thisMenu.image} alt={thisMenu.title} loading="lazy" />
+          )}
         </div>
       </div>
     </div>

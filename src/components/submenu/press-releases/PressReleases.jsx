@@ -38,7 +38,9 @@ const PressReleases = (props) => {
         </div>
         <div className="press-releases-page_info-details info-details">
           {thisMenu.details}
-          {thisMenu.image && <img src={thisMenu.image} alt={thisMenu.title} />}
+          {thisMenu.image && (
+            <img src={thisMenu.image} alt={thisMenu.title} loading="lazy" />
+          )}
 
           <div className="press-releases-page_info-card">
             <div>
