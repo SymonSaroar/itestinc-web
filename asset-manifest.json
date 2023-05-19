@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/itestinc-web/static/css/main.8d8af053.css",
+    "main.css": "/itestinc-web/static/css/main.74233149.css",
     "main.js": "/itestinc-web/static/js/main.2588cd1b.js",
     "static/media/wafer-5.jpg": "/itestinc-web/static/media/wafer-5.7ca99f9eeeeefa71e328.jpg",
     "static/media/technical-3.jpg": "/itestinc-web/static/media/technical-3.5506d02b39ebc294c9d7.jpg",
@@ -19,11 +19,11 @@
     "static/media/logo-1.png": "/itestinc-web/static/media/logo-1.7b3cce5332e68a076cd1.png",
     "static/media/Giveny.ttf": "/itestinc-web/static/media/Giveny.9f4b2939593806be2959.ttf",
     "index.html": "/itestinc-web/index.html",
-    "main.8d8af053.css.map": "/itestinc-web/static/css/main.8d8af053.css.map",
+    "main.74233149.css.map": "/itestinc-web/static/css/main.74233149.css.map",
     "main.2588cd1b.js.map": "/itestinc-web/static/js/main.2588cd1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d8af053.css",
+    "static/css/main.74233149.css",
     "static/js/main.2588cd1b.js"
   ]
 }
