@@ -26,3 +26,8 @@
   --color-border: #2ea3f2;
   --color-sub-border: rgba(0, 0, 0, 0.03)
 }
+
+@font-face {
+  font-family: "Giveny";
+  src: local("Giveny"), url("./assets/fonts/giveny/Giveny.ttf") format("truetype");
+}

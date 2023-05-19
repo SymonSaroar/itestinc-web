@@ -1,6 +1,15 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Features, Footer, Header, News, Services, Intro } from "./containers";
+import {
+  Features,
+  Footer,
+  Header,
+  News,
+  Services,
+  Intro,
+  Motto,
+  ServiceListing,
+} from "./containers";
 import { Cta, Brand, Navbar, Feature } from "./components";
 import { menuItems } from "./components/navbar/Menuitems";
 import "./app.scss";
@@ -11,9 +20,11 @@ const App = () => {
       <>
         <Intro />
         <Features>
+          <Motto />
           <Feature index={0} />
           <Services />
           <Feature index={1} />
+          <ServiceListing />
         </Features>
         <News />
       </>

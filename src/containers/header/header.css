@@ -16,9 +16,10 @@
 	align-items: center;
 	justify-content: space-between;
 
-	width: 80vw;
-	max-width: 1080px;
+	width: 90vw;
+	max-width: 1400px;
 }
+
 .contacts {
 	display: flex;
 	align-items: center;
@@ -26,23 +27,27 @@
 	gap: 1rem;
 }
 
-.contacts > * {
+.contacts>* {
 	display: flex;
 	align-items: center;
 	gap: 0.3rem;
 }
+
 .contacts-link {
 	display: flex;
 	align-items: center;
 }
-.contacts-link > * {
+
+.contacts-link>* {
 	display: flex;
 	align-items: center;
 }
+
 @media screen and (max-width: 550px) {
-	.contacts-link{
+	.contacts-link {
 		display: none;
 	}
+
 	.contacts {
 		width: 100%;
 	}

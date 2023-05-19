@@ -17,6 +17,10 @@ import {
   Tihd,
   Tpd,
   Ttts,
+  WaferProcess,
+  PackageQualification,
+  EnvironmentalTesting,
+  AnalyticalServices,
 } from "../submenu";
 import ptcimage from "../../assets/93K_Products_Final.jpg";
 
@@ -26,8 +30,8 @@ export const menuItems = [
     url: "/home",
   },
   {
-    title: "Test Services",
-    url: "/test-services",
+    title: "Listing of Services",
+    url: "/listing-of-services",
     object: <TestServices menu={1} />,
     submenu: [
       {
@@ -88,29 +92,44 @@ export const menuItems = [
     ],
   },
   {
-    title: "Reliability & Failure Analysis Services",
-    url: "/reliability",
-    object: <Reliability menu={2} />,
-    submenu: [
-      {
-        title:
-          "We intend to partner with specialists in this area. Stay tuned.",
-        url: "/stay-tuned",
-        object: <StayTuned menu={2} submenu={1} />,
-        details:
-          "We intend to partner with specialists in this area. Stay tuned.",
-      },
-    ],
+    title: "Wafer Process Quals",
+    url: "/wafer-process-quals",
+    object: <WaferProcess menu={2} />,
+    // submenu: [
+    //   {
+    //     title:
+    //       "We intend to partner with specialists in this area. Stay tuned.",
+    //     url: "/stay-tuned",
+    //     object: <StayTuned menu={2} submenu={1} />,
+    //     details:
+    //       "We intend to partner with specialists in this area. Stay tuned.",
+    //   },
+    // ],
+  },
+  {
+    title: "Package Qualification",
+    url: "/package-qualification",
+    object: <PackageQualification menu={3} />,
+  },
+  {
+    title: "Environmental Testing",
+    url: "/environmental-testing",
+    object: <EnvironmentalTesting menu={4} />,
+  },
+  {
+    title: "Analytical Services",
+    url: "/analytical-services",
+    object: <AnalyticalServices menu={5} />,
   },
   {
     title: "About Us",
     url: "/about",
-    object: <About menu={3} />,
+    object: <About menu={6} />,
     submenu: [
       {
         title: "Recent Events",
         url: "/recent-events",
-        object: <RecentEvents menu={3} submenu={1} />,
+        object: <RecentEvents menu={6} submenu={1} />,
         details: (
           <>
             <section>
@@ -175,12 +194,12 @@ export const menuItems = [
       {
         title: "Press Releases",
         url: "/press-releases",
-        object: <PressReleases menu={3} submenu={2} />,
+        object: <PressReleases menu={6} submenu={2} />,
       },
       {
         title: "Management Team",
         url: "/management-team",
-        object: <ManagementTeam menu={3} submenu={3} />,
+        object: <ManagementTeam menu={6} submenu={3} />,
         details: (
           <>
             <section>
@@ -200,7 +219,7 @@ export const menuItems = [
       {
         title: "Careers",
         url: "/careers",
-        object: <Careers menu={3} submenu={4} />,
+        object: <Careers menu={6} submenu={4} />,
         details: (
           <>
             <p>
@@ -215,13 +234,13 @@ export const menuItems = [
       {
         title: "Contact Us",
         url: "/contact-us",
-        object: <ContactUs menu={3} submenu={5} />,
+        object: <ContactUs menu={6} submenu={5} />,
       },
     ],
   },
-  {
-    title: "Testimonials",
-    url: "/testimonials",
-    object: <Testimonials menu={4} />,
-  },
+  // {
+  //   title: "Testimonials",
+  //   url: "/testimonials",
+  //   object: <Testimonials menu={4} />,
+  // },
 ];
