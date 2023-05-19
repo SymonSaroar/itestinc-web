@@ -1,7 +1,13 @@
 {
   "files": {
-    "main.css": "/itestinc-web/static/css/main.838853d9.css",
-    "main.js": "/itestinc-web/static/js/main.45871884.js",
+    "main.css": "/itestinc-web/static/css/main.8d8af053.css",
+    "main.js": "/itestinc-web/static/js/main.2588cd1b.js",
+    "static/media/wafer-5.jpg": "/itestinc-web/static/media/wafer-5.7ca99f9eeeeefa71e328.jpg",
+    "static/media/technical-3.jpg": "/itestinc-web/static/media/technical-3.5506d02b39ebc294c9d7.jpg",
+    "static/media/test-1.jpg": "/itestinc-web/static/media/test-1.e1383ca3d51e332251e4.jpg",
+    "static/media/backend-6.jpg": "/itestinc-web/static/media/backend-6.98eab14633717202a66c.jpg",
+    "static/media/interface-2.jpg": "/itestinc-web/static/media/interface-2.3e59b1be02d0fd7719b6.jpg",
+    "static/media/capability-4.jpg": "/itestinc-web/static/media/capability-4.3dcec1bd065d707707fc.jpg",
     "static/media/slide3.jpg": "/itestinc-web/static/media/slide3.cfb50ff17c9c59fe0e76.jpg",
     "static/media/ISO17025-Cert-1.png": "/itestinc-web/static/media/ISO17025-Cert-1.3cc48eef19ec3ed2880a.png",
     "static/media/slide2.jpg": "/itestinc-web/static/media/slide2.1c9722467fed58dafbbd.jpg",
@@ -11,12 +17,13 @@
     "static/media/DLA_Cert.jpg": "/itestinc-web/static/media/DLA_Cert.84e31435e4b699252d32.jpg",
     "static/media/ISO17025-Cert-2.png": "/itestinc-web/static/media/ISO17025-Cert-2.1dc79db9d9ebe6af818d.png",
     "static/media/logo-1.png": "/itestinc-web/static/media/logo-1.7b3cce5332e68a076cd1.png",
+    "static/media/Giveny.ttf": "/itestinc-web/static/media/Giveny.9f4b2939593806be2959.ttf",
     "index.html": "/itestinc-web/index.html",
-    "main.838853d9.css.map": "/itestinc-web/static/css/main.838853d9.css.map",
-    "main.45871884.js.map": "/itestinc-web/static/js/main.45871884.js.map"
+    "main.8d8af053.css.map": "/itestinc-web/static/css/main.8d8af053.css.map",
+    "main.2588cd1b.js.map": "/itestinc-web/static/js/main.2588cd1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.838853d9.css",
-    "static/js/main.45871884.js"
+    "static/css/main.8d8af053.css",
+    "static/js/main.2588cd1b.js"
   ]
 }
