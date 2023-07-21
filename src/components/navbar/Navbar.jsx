@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { RiArrowDownSLine, RiMenuLine } from "react-icons/ri";
 import logo from "../../assets/logo-1.png";
 import "./navbar.css";
@@ -36,7 +36,7 @@ const Navbar = () => {
             {menuItems.map((menu, index) => {
               return (
                 <li key={index}>
-                  <Link to={menu.url}>{menu.title}</Link>
+                  <NavLink activeStyle={{ color: 'red' }} to={menu.url}>{menu.title}</NavLink>
                   {menu.submenu && (
                     <RiArrowDownSLine className="navbar-fontlogo" />
                   )}

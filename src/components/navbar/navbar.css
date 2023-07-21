@@ -76,6 +76,8 @@
 	align-items: center;
 	justify-content: space-between;
 	gap: 0.2rem;
+	transition: border-bottom-width 0.2s ease-in;
+	border-bottom-width: 0;
 }
 
 .navbar-links_container ul li:hover .navbar-links_container_dropdown,
@@ -94,6 +96,9 @@
 
 	font-family: var(--font-family);
 	color: var(--color-text);
+}
+.navbar-links_container ul li:has(a.active) {
+	border-bottom: 7px solid var(--color-border);
 }
 
 .navbar-links_container_dropdown {

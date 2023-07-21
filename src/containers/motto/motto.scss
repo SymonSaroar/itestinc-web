@@ -7,24 +7,32 @@
 
   text-align: center;
   height: auto;
+  width: 60vw;
+  margin: auto;
   padding: 2rem 0rem;
   line-height: 1.5;
 }
 
 .motto-container_welcome {
-  color: var(--color-700);
+  color: var(--color-800);
   font-size: 4rem;
-  font-family: "Giveny";
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .motto-container_motto-text {
   font-family: "Giveny";
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 1.35rem;
+  line-height: 1.5;
   .motto-text_itest {
     font-style: italic;
     font-family: "Giveny";
     color: var(--color-800);
-    font-size: 1.55rem;
+    font-size: 1.4rem;
   }
+}
+
+.motto-container_about {
+  font-size: 1.2rem;
+  line-height: 1.7;
 }

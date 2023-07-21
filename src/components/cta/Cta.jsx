@@ -1,6 +1,7 @@
 import React from 'react'
 import './cta.scss'
 import { menuItems } from '../navbar/Menuitems'
+import { NavLink } from "react-router-dom";
 
 const Cta = () => {
   return (
@@ -10,7 +11,7 @@ const Cta = () => {
           menuItems.map((menu, index) => {
             return (
               <li key={index}>
-                <a href={menu.url}>{menu.title}</a>
+                <NavLink to={menu.url}>{menu.title}</NavLink>
               </li>
             )
           })

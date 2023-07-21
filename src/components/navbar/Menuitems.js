@@ -23,7 +23,7 @@ import {
   AnalyticalServices,
 } from "../submenu";
 import ptcimage from "../../assets/93K_Products_Final.jpg";
-
+import { wfpone, wfptwo, wfpthree, wfpfour, wfpfive, envone, envtwo } from "../../assets";
 export const menuItems = [
   {
     title: "Home",
@@ -95,6 +95,72 @@ export const menuItems = [
     title: "Wafer Process Quals",
     url: "/wafer-process-quals",
     object: <WaferProcess menu={2} />,
+    details: (
+      <>
+        <h3>Molding your future with each step</h3>
+        <div>
+          <div className={"info-icon"} style={{ backgroundImage: `url(${wfpone})` }}>
+
+          </div>
+
+          <p className={"info-para"}>
+            Our specialty it to devise, and execute Process and Technology
+            Qualification of Test Chips, Standard products, ASICs, FPGA’s
+            Memories, and all other logic products.
+          </p>
+        </div>
+
+        <div>
+          <div className={"info-icon"} style={{ backgroundImage: `url(${wfptwo})` }}>
+
+          </div>
+          <p className={"info-para"}>
+            Building upon the process Wafer and Foundry Processing data a
+            Qualification and characterization plan is devised that looks at
+            Early Failure Rate and Long-Term Performance of technologies.
+          </p>
+        </div>
+        <div>
+          <div className={"info-icon"} style={{ backgroundImage: `url(${wfpthree})` }}>
+
+          </div>
+          <p className={"info-para"}>
+            Foundry specific tests and customary tests around bench marking of
+            the technology are designed with full test hardware, biasing and
+            stress hardware, Burn in and HTOL Boards.
+          </p>
+        </div>
+        <div>
+          <div className={"info-icon"} style={{ backgroundImage: `url(${wfpfour})` }}>
+
+          </div>
+          <p className={"info-para"}>
+            The centerpiece of this is our Life Test Burn in or HOTL Services.
+          </p>
+        </div>
+        <div>
+          <div className={"info-icon"} style={{ backgroundImage: `url(${wfpfive})` }}>
+
+          </div>
+          <ul className={"info-para"}>
+            <li>Low power Dynamic, Static and functional Burn in</li>
+            <li>Test during Burn in. At speed intelligent Burn in</li>
+            <li>Ambient low power air flow managed Burn in</li>
+            <li>Thermally Managed and junction managed burn in</li>
+            <li>
+              Real time water/ heater controlled burn in for High Power
+              dissipation.
+            </li>
+            <li>Reference card and System Level Test Burn in.</li>
+            <li>Level I and systems level II burn in</li>
+            <li>Power cycling and application specific Burn -in.</li>
+            <li>COTS Qualification & PEM & Qualification Services</li>
+            <li>On Going Reliability Monitors (ORM,s)</li>
+            <li>Advanced Chamber less Burn-in (RF device testing)</li>
+          </ul>
+        </div>
+      </>
+    ),
     // submenu: [
     //   {
     //     title:
@@ -115,11 +181,113 @@ export const menuItems = [
     title: "Environmental Testing",
     url: "/environmental-testing",
     object: <EnvironmentalTesting menu={4} />,
+    details: (
+        <>
+          <h3>Right beside you!</h3>
+          <div>
+            <div className={"info-icon"} style={{ backgroundImage: `url(${envone})` }}>
+
+            </div>
+            <ul className={"info-para"}>
+              <h4 className={"info-head"}>Environmental Testing Services Offered: </h4>
+              <li>Moisture/Reflow Sensitivity Classification</li>
+              <li>JEDEC Preconditioning</li>
+              <li>High temperature operating life (HTOL) test</li>
+              <li>HTSL: The high-temperature storage life test</li>
+              <li>Highly Accelerated Temperature and Humidity Stress Test (HAST)</li>
+              <li>Steady-State Temperature Humidity Bias Life (THB)</li>
+              <li>Temperature Cycling Test (TCT)</li>
+              <li>Power and Temperature Cycling (PTC)</li>
+              <li>Thermal Shock Test, Liquid to Liquid</li>
+              <li>Autoclave (Pressure Pot)</li>
+              <li>Salt Atmosphere</li>
+              <li>High Temperature Storage (HTS) and Low Temperature</li>
+              <li>POTC (Power ON Temperature Cycle)</li>
+              <li>Board Level Qualification</li>
+              <li>Level I and Level II Qualification - Evaluate die, package, and board-level reliability.</li>
+              <li>IPC Level II Testing</li>
+              <li>CSP Reliability Qualification</li>
+            </ul>
+          </div>
+
+          <div>
+            <div className={"info-icon"} style={{ backgroundImage: `url(${envtwo})` }}>
+
+            </div>
+
+            <ul className={"info-para"}>
+              <h4 className={"info-head"}>Mechanical Testing Services Offered:</h4>
+              <li>Shock and vibration</li>
+              <li>Fine/gross leak</li>
+              <li>Solder joint reliability</li>
+              <li>Ball shear</li>
+              <li>Die shear and pull</li>
+              <li>Wire pulls.</li>
+              <li>Lid torque</li>
+              <li>Solderability test</li>
+              <li>Marking permanency</li>
+              <li>Centrifuge (constant acceleration)</li>
+              <li>Wire bond shear/bond pull</li>
+              <li>Destructive Physical Analysis (DPA)</li>
+              <li>Meets all ISTA standards and test procedures.</li>
+              <li>ASTM standards and AEQ</li>
+            </ul>
+          </div>
+        </>
+    ),
   },
   {
     title: "Analytical Services",
     url: "/analytical-services",
     object: <AnalyticalServices menu={5} />,
+    details: (
+        <>
+          <div>
+            {/*<div className={"info-icon"} style={{ backgroundImage: `url(${envone})` }}>
+
+            </div>*/}
+            <ul className={"info-para"}>
+              <h4 className={"info-head"}>Reliability Test Services Offered: </h4>
+              <li>Characterize devices for a wide array of electrical (DC/RF), mechanical and environmental stresses to
+                ascertain best-in-class FIT rates.
+              </li>
+              <li>Accelerated Evaluation & Qualification</li>
+              <li>Board-level Solder Joint Reliability</li>
+              <li>Device characterization / Feasibility Analysis</li>
+              <li>Multiple package/product evaluation</li>
+              <li>High-powered, liquid and RF burn-in</li>
+              <li>Acoustic Microscopy</li>
+              <li>EFR Analysis</li>
+              <li>Particle Impact Noise Detection (PIND)</li>
+              <li>Salt Atmosphere</li>
+              <li>Shadow Moiré/Warpage Analysis</li>
+              <li>Solderability</li>
+              <li>X-Ray</li>
+              <li>Other Level III & Sub System</li>
+              <li>Hermetic package testing</li>
+            </ul>
+          </div>
+
+          <div>
+            {/*<div className={"info-icon"} style={{ backgroundImage: `url(${envtwo})` }}>*/}
+
+            {/*</div>*/}
+
+            <ul className={"info-para"}>
+              <h4 className={"info-head"}>Failure Analysis Offered:</h4>
+              <li>Photography and Optical Microscopy</li>
+              <li>Radiography Inspection (X-Ray)</li>
+              <li>Cross-Section</li>
+              <li>Decapsulation</li>
+              <li>Scanning Electron Microscopy (SEM)</li>
+              <li>Energy Dispersive Spectroscopy (EDS/EDX)</li>
+              <li>Scanning Acoustic Microscopy</li>
+              <li>Emission Microscope (EMMI)</li>
+              <li>Dye & Pry</li>
+            </ul>
+          </div>
+        </>
+    ),
   },
   {
     title: "About Us",
