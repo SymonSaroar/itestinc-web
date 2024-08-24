@@ -44,17 +44,17 @@ const App = () => {
               <>
                 {menu.url === "/home" ? (
                   <>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/home" element={<Home />} />
-                    <Route path="/itestinc-web" element={<Home />} />
+                    <Route path="/" element={<Home />} key={index}/>
+                    <Route path="/home" element={<Home />} key={index}/>
+                    <Route path="/itestinc-web" element={<Home />} key={index}/>
                   </>
                 ) : (
-                  <Route path={menu.url} element={menu.object} />
+                  <Route path={menu.url} element={menu.object} key={index}/>
                 )}
                 {menu.submenu &&
                   menu.submenu.map((submenu, index) => {
                     return (
-                      <Route path={submenu.url} element={submenu.object} />
+                      <Route path={submenu.url} element={submenu.object} key={index}/>
                     );
                   })}
               </>

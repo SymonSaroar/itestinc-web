@@ -27,7 +27,7 @@ const Ftwp = (props) => {
                 // thisMenu.title !== submenu.title &&
                 <li
                   key={index}
-                  class={thisMenu.title === submenu.title ? "active" : ""}
+                  className={thisMenu.title === submenu.title ? "active" : ""}
                 >
                   <Link to={submenu.url}>{submenu.title}</Link>
                 </li>

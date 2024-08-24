@@ -28,7 +28,7 @@ const PressReleases = (props) => {
                 // thisMenu.title !== submenu.title &&
                 <li
                   key={index}
-                  class={thisMenu.title === submenu.title ? "active" : ""}
+                  className={thisMenu.title === submenu.title ? "active" : ""}
                 >
                   <Link to={submenu.url}>{submenu.title}</Link>
                 </li>
@@ -43,7 +43,7 @@ const PressReleases = (props) => {
           )}
 
           <div className="press-releases-page_info-card">
-            <div>
+            <div className={"press-releases-page_info-card-links"}>
               <a href="https://www.advantest.com/news?articleId=1956392">
                 Advantest Article
               </a>
@@ -52,19 +52,19 @@ const PressReleases = (props) => {
                 Globenewswire News Release
               </a>
             </div>
-            <section>
+            <section className={"press-releases-page_info-card-text"}>
               Advantest Receives Supplier Excellence Award for Contributing to
               Start-Up iTest's Success During its First Year
             </section>
           </div>
 
           <div className="press-releases-page_info-card">
-            <div>
+            <div className={"press-releases-page_info-card-links"}>
               <a href="https://www.linkedin.com/pulse/chroma-ate-inc-honored-itest-milpitas-california-11918-hauck/">
                 Linked In post
               </a>
             </div>
-            <section>
+            <section className={"press-releases-page_info-card-text"}>
               CHROMA ATE Inc., Honored by iTest, Milpitas California- 1/19/18
             </section>
           </div>

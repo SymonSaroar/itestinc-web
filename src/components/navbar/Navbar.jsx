@@ -36,7 +36,7 @@ const Navbar = () => {
             {menuItems.map((menu, index) => {
               return (
                 <li key={index}>
-                  <NavLink activeStyle={{ color: 'red' }} to={menu.url}>{menu.title}</NavLink>
+                  <NavLink to={menu.url}>{menu.title}</NavLink>
                   {menu.submenu && (
                     <RiArrowDownSLine className="navbar-fontlogo" />
                   )}

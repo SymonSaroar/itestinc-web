@@ -97,8 +97,8 @@ export const menuItems = [
     object: <WaferProcess menu={2} />,
     details: (
       <>
-        <h3>Molding your future with each step</h3>
-        <div>
+        <h3 className={"info-heading"}>Molding your future with each step</h3>
+        <div className={"info-listings"}>
           <div className={"info-icon"} style={{ backgroundImage: `url(${wfpone})` }}>
 
           </div>
@@ -110,7 +110,7 @@ export const menuItems = [
           </p>
         </div>
 
-        <div>
+        <div className={"info-listings"}>
           <div className={"info-icon"} style={{ backgroundImage: `url(${wfptwo})` }}>
 
           </div>
@@ -120,7 +120,7 @@ export const menuItems = [
             Early Failure Rate and Long-Term Performance of technologies.
           </p>
         </div>
-        <div>
+        <div className={"info-listings"}>
           <div className={"info-icon"} style={{ backgroundImage: `url(${wfpthree})` }}>
 
           </div>
@@ -130,7 +130,7 @@ export const menuItems = [
             stress hardware, Burn in and HTOL Boards.
           </p>
         </div>
-        <div>
+        <div className={"info-listings"}>
           <div className={"info-icon"} style={{ backgroundImage: `url(${wfpfour})` }}>
 
           </div>
@@ -138,7 +138,7 @@ export const menuItems = [
             The centerpiece of this is our Life Test Burn in or HOTL Services.
           </p>
         </div>
-        <div>
+        <div className={"info-listings"}>
           <div className={"info-icon"} style={{ backgroundImage: `url(${wfpfive})` }}>
 
           </div>
@@ -183,8 +183,8 @@ export const menuItems = [
     object: <EnvironmentalTesting menu={4} />,
     details: (
         <>
-          <h3>Right beside you!</h3>
-          <div>
+          <h3 className={"info-heading"}>Right beside you!</h3>
+          <div className={"info-listings"}>
             <div className={"info-icon"} style={{ backgroundImage: `url(${envone})` }}>
 
             </div>
@@ -210,7 +210,7 @@ export const menuItems = [
             </ul>
           </div>
 
-          <div>
+          <div className={"info-listings"}>
             <div className={"info-icon"} style={{ backgroundImage: `url(${envtwo})` }}>
 
             </div>
@@ -242,7 +242,7 @@ export const menuItems = [
     object: <AnalyticalServices menu={5} />,
     details: (
         <>
-          <div>
+          <div className={"info-listings"}>
             {/*<div className={"info-icon"} style={{ backgroundImage: `url(${envone})` }}>
 
             </div>*/}
@@ -268,7 +268,7 @@ export const menuItems = [
             </ul>
           </div>
 
-          <div>
+          <div className={"info-listings"}>
             {/*<div className={"info-icon"} style={{ backgroundImage: `url(${envtwo})` }}>*/}
 
             {/*</div>*/}
