@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/itestinc-web/static/css/main.30007729.css",
-    "main.js": "/itestinc-web/static/js/main.024182f3.js",
+    "main.css": "/itestinc-web/static/css/main.051e5c65.css",
+    "main.js": "/itestinc-web/static/js/main.955c89a9.js",
     "static/media/two.jpg": "/itestinc-web/static/media/two.e1383ca3d51e332251e4.jpg",
     "static/media/one.jpg": "/itestinc-web/static/media/one.3e59b1be02d0fd7719b6.jpg",
     "static/media/three.jpg": "/itestinc-web/static/media/three.055672466ee32e529882.jpg",
@@ -25,11 +25,11 @@
     "static/media/logo-1.png": "/itestinc-web/static/media/logo-1.7b3cce5332e68a076cd1.png",
     "static/media/Giveny.ttf": "/itestinc-web/static/media/Giveny.9f4b2939593806be2959.ttf",
     "index.html": "/itestinc-web/index.html",
-    "main.30007729.css.map": "/itestinc-web/static/css/main.30007729.css.map",
-    "main.024182f3.js.map": "/itestinc-web/static/js/main.024182f3.js.map"
+    "main.051e5c65.css.map": "/itestinc-web/static/css/main.051e5c65.css.map",
+    "main.955c89a9.js.map": "/itestinc-web/static/js/main.955c89a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.30007729.css",
-    "static/js/main.024182f3.js"
+    "static/css/main.051e5c65.css",
+    "static/js/main.955c89a9.js"
   ]
 }
